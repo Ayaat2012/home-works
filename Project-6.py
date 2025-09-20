@@ -63,7 +63,7 @@ def topwin():
     computer_choice_label = Label(top, text="", bg="blue", fg="white")
     computer_choice_label.pack(pady=5)
 
-    result_label = Label(top, text="", bg="blue")
+    result_label = Label(top, text="", bg="black", fg="white")
     result_label.pack(pady=10)
 
     # Creating buttons for each choice
